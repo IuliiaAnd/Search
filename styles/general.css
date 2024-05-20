@@ -1,0 +1,22 @@
+body, html{
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  margin: 0;
+}
+input[type=submit]{
+  cursor: pointer;
+}
+a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+input:focus{
+  outline-width: 0;
+}

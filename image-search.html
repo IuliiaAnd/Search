@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Search</title>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="styles/header.css">
+      <link rel="stylesheet" href="styles/general.css">
+      <link rel="stylesheet" href="styles/center.css">
+  </head>
+  <body>
+      <header id="header">
+          <nav class="header-container">
+              <div class="header-left" style="visibility: hidden;">
+                <a href="#">About</a>
+                <a href="#">Store</a>
+               </div>                
+              <div class="header-right">
+                  <a href="index.html">Search</a>
+                  <a href="advanced-search.html">Advanced Search</a>
+                  <a href="#"><img src="icons/Account-icon.jpg" alt="Account" class="account-icon"></a>
+              </div>
+          </nav>            
+      </header>
+      <main id="main-content">
+          <div class="logo-container">
+            <img class="logo-img" src="images/googlelogo_color_272x92dp.png" alt="Google">
+            <span class="google-images-logo">Images</span>            
+          </div>
+          
+          <div id="center-form">
+            <form  action="https://google.com/search" method="get">
+                <div class="search-bar">
+                    <input class="search-input" type="text" name="q">
+                    <input class="search-submit" type="image" src="icons/search.svg">                                   
+                </div>
+                <div>
+                  <input type="hidden" name="tbm" value="isch">
+                </div>                            
+            </form>
+        </div>
+      </main>                   
+  </body>
+</html>
