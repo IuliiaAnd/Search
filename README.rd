@@ -1,6 +1,6 @@
 Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
 
-YouTube link: 
+YouTube link: https://www.youtube.com/watch?v=n56IFxmskzc
 
 Your website must meet the following requirements:
 
